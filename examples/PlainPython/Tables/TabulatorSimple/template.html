@@ -1,0 +1,15 @@
+<v-app>
+  <v-app-bar app dense>
+    <v-icon class="mr-2">mdi-table-large</v-icon>
+    <div class="title">Tabulator examples</div>
+    <v-spacer />
+  </v-app-bar>
+  <v-main>
+    <v-container fluid>
+      <VueTabulator
+        v-model="tableData"
+        :options="options" 
+      />
+    </v-container>
+  </v-main>
+</v-app>
